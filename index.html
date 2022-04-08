@@ -13,6 +13,15 @@
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+  
+.typed::after {
+  content: "|";
+  display: inline;
+  color: #C4C4C4;
+  font-weight: 300;
+  animation: blink 1s infinite;
+}
+
   <div class="bg-success p-2 text-white"></div>
 body {
   font-family: "Lato", sans-serif;
@@ -103,6 +112,25 @@ function closeNav() {
   document.getElementById("main").style.marginLeft= "0";
 }
 </script>
+  <h1> The best local attorney for </h1>
+  <br>
+  <span class="typed"> ::after </span>
+  <script>
+    
+var options = {
+  strings: ["Small Business Planning", "Civil Litigation", "M&amp;A", "Estate Planning"],
+  typeSpeed: 100,
+  backSpeed: 75,
+  backDelay: 1600,
+  startDelay: 500,
+  loop: true,
+  cursorChar: "|",
+  showCursor: false,
+  attr: null,
+};
+
+var typed = new Typed('.typed', options);
+  </script>
    
 </body>
 </html> 
