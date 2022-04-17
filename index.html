@@ -123,19 +123,15 @@ function closeNav() {
   <script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
 
-    
+// Can also be included with a regular script tag
+import Typed from 'typed.js';
+
 var options = {
-  strings: ["Small Business Planning", "Civil Litigation", "M&amp;A", "Estate Planning"],
-  typeSpeed: 100,
-  backSpeed: 75,
-  backDelay: 1600,
-  startDelay: 500,
-  loop: true,
-  cursorChar: "|",
-  showCursor: false,
-  attr: null,
+  strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+  typeSpeed: 40
 };
-    <h1> options.strings </h1>
+
+var typed = new Typed('.element', options);
 
 
 var typed = new Typed('.typed', options);
