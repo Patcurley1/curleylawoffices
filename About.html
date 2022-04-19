@@ -13,14 +13,10 @@
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  <div class="bg-success p-2 text-white"></div>
+ 
 
 body {
   font-family: "Lato", sans-serif;
-   background: #34495e;
-          color: #ecf0f1;
-          margin: 0;
-          padding: 0;
 }
 
 .sidebar {
@@ -60,7 +56,7 @@ body {
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #111;
+  background-color: #777;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -70,9 +66,19 @@ body {
   background-color: #444;
 }
 
+
 #main {
   transition: margin-left .5s;
   padding: 16px;
+  background-color: #777;
+  color: white;
+}
+#footerat
+{
+  background-color: #777;
+  color:white;
+    box-shadow: 0 50vh 0 50vh #777;
+
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -86,7 +92,7 @@ body {
 
 <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  <a href="index.html">Home</a>
+  <a href="Index.html">Home</a>
   <a href="About.html">About</a>
   <a href="Staff.html">Staff</a>
   <a href="ContactUs.html">Contact Us</a>
@@ -95,7 +101,7 @@ body {
 
 <div id="main">
   <button class="openbtn" onclick="openNav()">☰ Menu</button>  
-  <header> <h1>About Law Offices of Richard T. Curley</h1></header>
+  <center><strong><h1>About Law Offices of Richard T. Curley</h1></strong></center>
   
 </div>
 
@@ -120,23 +126,32 @@ function closeNav() {
   </figcaption>
 </figure>
 
-  <div>
-  <h2> About Us </h2>
-    <div id=container>
-      <div style="float: left;">
-    <left><img class="w3-image w3-padding22" src="Images\Screenshot 2022-04-14 at 14-28-47 google street view 50 east philadelphia avenue boyertown pa - Google Search.png"</left>
-      <div style="float: right;">
-            <p> The Law Offices of Richard T. Curley, P.C. is a general practice law firm in Boyertown, Pennsylvania. The practice emphasizes <u> litigation, business and estate planning, all done with an eye toward the long term </u>, positive effects that community involvement can bring to the affairs of our clients. 
-   <br> We believe that the best service we can provide our clients is to <strong> listen to them, and get the best outcome that can be obtained</strong>, recognizing the family, business, and community concerns that our clients have in mind.  <br>
-   We know each issue that you bring to us is important enough for you to seek our assistance, and we try each and every day to justify that confidence in us. <br><br>
+<div style="display:inline-block;vertical-align:top;">
+  <img class="w3-image w3-padding22" src="Images\storefront.jpg" width="400" height = "400" alt="Storefront"/>
+  </div>
+  <div style="display:inline-block;">
+  <p>
+    The Law Offices of Richard T. Curley, P.C. is a general practice law firm in Boyertown, Pennsylvania. The practice emphasizes <u> litigation, business and estate planning, all done with an eye toward the long term</u>, positive effects that community involvement can bring to the affairs of our clients. 
+    <br> <br>
+ 
+ We believe that the best service we can provide our clients is to <strong> listen to them, and get the best outcome that can be obtained</strong>, recognizing the family, business, and community concerns that our clients have in mind. 
+    <br> <br>
+ 
+ We know each issue that you bring to us is important enough for you to seek our assistance, and we try each and every day to justify that confidence in us. <br><br>
+  </p>
   </div>
   
- 
-   <strong><h3>Use the map below to find us!  </strong></h3> <br><br>
- <center> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.437379205839!2d-75.63859058460663!3d40.33264247937501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c68171a4b9a08b%3A0x7074a17986f01c7!2s50%20E%20Philadelphia%20Ave%2C%20Boyertown%2C%20PA%2019512!5e0!3m2!1sen!2sus!4v1649963331977!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </center>
+  
+   
+  
+  
   </body>
- <footer> 
-    <p>&copy; 2022 Law Offices of Richard T. Curley, P.C.  | As a responsible attroney, he would not approve of me slapping a copyright onto something that clearly doesn't have a real copyright.  This website is used purely for coding practice.  
-      </p> 
-  </footer>
-</html>
+
+  
+  <footer> 
+    <div id="footerat">
+     <strong><p>&copy; 2022 Law Offices of Richard T. Curley, P.C.  | As a responsible attroney, he would not approve of me slapping a copyright onto something that clearly doesn't have a real copyright.  This website is used purely for coding practice.  
+       </p> </strong>
+     </div>
+   </footer>
+ </html>
