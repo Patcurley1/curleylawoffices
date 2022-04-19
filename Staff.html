@@ -69,6 +69,11 @@ body {
   transition: margin-left .5s;
   padding: 16px;
 }
+    
+    #section {
+  transition: margin-left .5s;
+  padding: 16px;
+}
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -77,6 +82,8 @@ body {
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+    padding: 0;
 }
 
 .flip-card {
@@ -156,8 +163,8 @@ function closeNav() {
 </script>
   
   
-  
-<table>
+  <div id = "section">
+<table border="1" width="100%" ID="StaffTable">
     <tr>
         <th>
             <div style="display:flex">
@@ -180,7 +187,7 @@ function closeNav() {
                 <div class="flip-card">
                     <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img src="Images/IMG_2409_2.jpg" alt="Terry Curley" style="width:300px;height:300px;">
+                        <img src="Images/female_avatar.jpg" alt="Terry Curley" style="width:300px;height:300px;">
                     </div>
                     <div class="flip-card-back">
                         <h1>Terry Curley</h1> 
