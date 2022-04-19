@@ -13,6 +13,18 @@ The project is an upgrade for my Dad's law firm website.  This site (https://www
 # Contributing
 Right now and for the foreseeable future, the only contributor is me (Pat Curley).
 
+# Acknowldegements 
+While I worked on the code myself, there are a number of sources that I relied on heavily. 
+1. The original base case of the website developed much of the content https://www.curleylawpc.com/  
+2. W3 Schools
+3. Twitter Bootstrap
+4. Youtube tutorials
+5. StackOverflow
+6. Brian Johnson from class was also a critical sounding board for problems and helping with specific code issues.
+7. I benefited greatly from the original student-site that we worked through in class. 
+8. I also referenced last year's examples that were presented in the slack channel as best.  I don't believe that I developed anything from them, however. 
+9. I tried to adapt code from .typed.js, and there are plenty of helpful sources on that (just not quite helpful enough).
+
 # License and Usage 
 Should be accessed through the MIT License.  I'd recommend against cloning/reusing this repository for any other services.  
 
