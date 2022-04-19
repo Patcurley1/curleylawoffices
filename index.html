@@ -1,34 +1,57 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FPQ7Q9YKJ3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FPQ7Q9YKJ3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-FPQ7Q9YKJ3');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
 
-  gtag('config', 'G-FPQ7Q9YKJ3');
-</script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-  npm install --save wc-typed-js
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  // Can also be included with a regular script tag
-import Typed from 'typed.js';
-  
-.typed::after {
-  content: "|";
-  display: inline;
-  color: #C4C4C4;
-  font-weight: 300;
-  animation: blink 1s infinite;
-}
-
-  <div class="bg-success p-2 text-white"></div>
+    <title>Law Office of Richard T. Curley, P.C. Home</title>
+  </head>
+  <body>
+      <style>
+          
+         .carousel-item {
+          height:58rem;
+          background: #777;
+          color: white;
+          position: relative;
+         
+          
+         } 
+         .container {
+             position:absolute;
+             bottom: 0;
+             left:0;
+             right:0;
+             padding-bottom: 50px;
+             color: white;
+         }
+         .container2
+         {
+             position:absolute;
+             bottom: 0;
+             left:0;
+             right:0;
+             padding-bottom: 50px;
+             color: white;
+         }
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif; 
+  
+}
+.full-height {
+  height:100%; background: rgb(109, 107, 107);
 }
 
 .sidebar {
@@ -88,45 +111,90 @@ body {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
-</style>
-</head>
-<body>
+      </style>
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="Index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Staff.html">Staff</a>
+        <a href="ContactUs.html">Contact Us</a>
+        <a href="Scheduling.html">Scheduling </a>
+      </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+        <h1>Law Offices of Richard T. Curley, P.C.</h1>
+        <h3>The unofficial site of the most experienced, honest, and decent lawyer working out of this particular section of East Philadelphia Avenue in Boyertown.  </h3>
+          <br>
+          <h8>(He would never allow this to become his real site)</h8>
+      </div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+      
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-<div id="mySidebar" class="sidebar">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  <a href="index.html">Home</a>
-  <a href="About.html">About</a>
-  <a href="Staff.html">Staff</a>
-  <a href="ContactUs.html">Contact Us</a>
-  <a href="Scheduling.html">Scheduling </a>
-  <a href="LegalPractices.html">Legal Practice Areas </a>
-</div>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <div class="container">
+               <h1>Mergers and Acquisitions</h1>
+               <p><h5>Thinking about making a significant business investment decision? Make sure your legal bases are covered with our M&A practices.</h5></p>
+               <p><a class="btn btn-lg btn-primary" href="https://patcurley1.github.io/curleylawoffices/Scheduling.html">Learn more by scheduling a mergers discussion.</a></p>
 
-<div id="main">
-  <button class="openbtn" onclick="openNav()">☰ Menu</button>  
-  <h1>Law Offices of Richard T. Curley, P.C.</h1>
-  <h3>The unofficial site of the most experienced, honest, and decent lawyer working out of this particular section of East Philadelphia Avenue in Boyertown.  </h3>
-    <br>
-    <h8>(He would never allow this to become his real site)</h8>
-</div>
+            </div>
+            <img src="https://images.unsplash.com/photo-1521790797524-b2497295b8a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60" class="d-block w-100" alt="Mergers">
+          </div>
+          <div class="carousel-item">
+            <div class="container2">
+            <h1>Estate Planning</h1>
+            <p><h5>Estate Planning is tough, let us worry about the details.</h5></p>
+            <p><a class="btn btn-lg btn-primary" href="https://patcurley1.github.io/curleylawoffices/Scheduling.html">Meet with Tim </a></p>
+            <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60" class="d-block w-100" alt="Estates">
+          </div>
+        </div>
+          <div class="carousel-item">
+            <div class="container2"> 
+            <h1>Civil Litigation</h1>
+            <p><h5>We're here for you during your hardest times.</h5></p>
+            <p><a class="btn btn-lg btn-primary" href="https://patcurley1.github.io/curleylawoffices/Scheduling.html">Meet with Tim </a></p>
+            <img src="https://images.unsplash.com/photo-1423592707957-3b212afa6733?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60" class="d-block w-100" alt="Civil Litigation">
+          </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
 
-<script>
-function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
-</script>
- <iframe width="100%" height="300" src="//jsfiddle.net/mattboldt/60h9an7y/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-
-
-  </script>
-   
-</body>
-<footer>
-      <p>&copy; 2022 Law Offices of Richard T. Curley, P.C.  |</footer>
-</html> 
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+  <footer> 
+    <p>&copy; 2022 Law Offices of Richard T. Curley, P.C.  | As a responsible attroney, he would not approve of me slapping a copyright onto something that clearly doesn't have a real copyright.  This website is used purely for coding practice.  
+      </p> 
+  </footer>
+</html>
