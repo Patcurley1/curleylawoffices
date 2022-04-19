@@ -134,8 +134,10 @@ body {
   color: white;
   transform: rotateY(180deg);
 }
-      table, th, td {
-            border: 10px solid black;
+      table, th, td {border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 10px solid black;
         }
         th, td {
             padding: 125px;
@@ -171,7 +173,7 @@ function closeNav() {
 </script>
   
   
-  <div id = "section">
+  <div id = "section" style="overflow-x:auto;">
 <table border="1" width="100%" ID="StaffTable">
     <tr>
         <th>
